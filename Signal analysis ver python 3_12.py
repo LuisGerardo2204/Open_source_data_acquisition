@@ -1,3 +1,21 @@
+#
+# @section LICENSE
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of
+# the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details at
+# http://www.gnu.org/copyleft/gpl.html
+#  credits and special thanks to Hamed Seyed-Allaei
+# This program is based in his usefull repository 
+# https://github.com/hamed/snowWhiteNoise
+# this version is intended to work with python 3.12 
+#
 
 from __future__ import division, absolute_import, print_function
 #from mpl_toolkits.mplot3d import axes3d
