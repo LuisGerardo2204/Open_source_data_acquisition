@@ -187,8 +187,7 @@ void loop() {
 void TRNG_Handler() {  
   int trngISR = TRNG->TRNG_ISR;
   if((trngIndex-dacIndex) <= divider) {  
-    if(trngISR) {
-       //dacBuffer[trngIndex & divider][trngidx] = (0x0FFF0FFF & TRNG->TRNG_ODATA) | 0x80008000; // TRNG, put 32 bits of random numbers into the buffer.      
+    if(trngISR) {      
       dacBuffer[trngIndex & divider][trngidx] =  0x8FFF8000; 
       trngidx++;  
       if(trngidx == BUFFER_SIZE) {
