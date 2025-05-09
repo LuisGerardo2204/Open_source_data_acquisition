@@ -103,7 +103,7 @@ void loop() {
   ADC->ADC_MR |= ADC_MR_TRANSFER(1);
   ADC->ADC_MR |= ADC_MR_TRGEN_EN; 
   ADC->ADC_MR |= ADC_MR_TRGSEL_ADC_TRIG1;
-  ADC->ADC_CHER= ADC_CHER_CH5; % Uses chanel 2 of the arduino Due board 
+  ADC->ADC_CHER= ADC_CHER_CH5; // Uses chanel 2 of the arduino Due board 
 
   ADC->ADC_IDR   = ~ADC_IDR_ENDRX;
   ADC->ADC_IER   =  ADC_IER_ENDRX; 
