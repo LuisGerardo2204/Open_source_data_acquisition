@@ -162,7 +162,7 @@ def get_value():
     
     T=1/samplingRate
     muestras=[T*2**12,T*2**14,T*2**16,T*2**18,T*2**20,T*2**22]
-    cbt['values']=muestras
+    cbt['values']=n_muestras
     cbt.pack(side=tk.LEFT,fill=tk.X)
     row.pack(side=tk.TOP, fill=tk.X, padx=5, pady=5)
     p1.update()
